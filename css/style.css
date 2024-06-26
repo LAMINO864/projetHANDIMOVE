@@ -1,0 +1,84 @@
+
+body{
+    background-image: url(https://i.pinimg.com/originals/ec/e9/95/ece99508435a1d1730e8ebff951de030.jpg);
+    background-size: cover;
+    backdrop-filter: blur(15px);
+}
+
+li{
+    color: red;
+}
+
+.contener{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+#inscription{
+    display: none;
+}
+
+#formAccompagnant{
+    display: none;
+}
+
+#mdp{
+    color: red;
+    list-style: none;
+}
+
+#profil{
+    display: none;
+}
+#historique{
+    display: none;
+}
+#formTicket{
+    display: none;
+}
+
+#map{
+    height: 600px;
+}
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: table;
+    transition: opacity 0.3s ease;
+    overflow: auto;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    width: 700px;
+    height: 600px;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all 0.3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow: auto;
+  }
+
+  .header{
+    width: 100%;
+    height: 10%;
+    background-color: #008cff;
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+  }
